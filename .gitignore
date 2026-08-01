@@ -1,0 +1,65 @@
+# Environnement virtuel Python
+.venv/
+venv/
+env/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cache des tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Cache des outils de qualité
+.mypy_cache/
+.ruff_cache/
+
+# Fichiers Streamlit locaux
+.streamlit/
+
+# Variables d’environnement et secrets
+.env
+.env.*
+!.env.example
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.log
+
+# Fichiers générés par le système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuration des IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Vidéos importées par les utilisateurs
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Vidéos analysées générées par l’application
+data/outputs/*
+!data/outputs/.gitkeep
+
+# Modèles MediaPipe téléchargés localement
+models/*.task
+models/*.tflite
+
+# Fichiers vidéo éventuellement placés ailleurs
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Fichiers de build et packaging
+build/
+dist/
+*.egg-info/
